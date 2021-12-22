@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+cloud:
+  aws:
+    stack:
+      auto: false
+server:
+  servlet:
+    context-path: /backend-for-frontend
+service:
+  dns: internal-ma-aikawar-alb-private-863046275.ap-northeast-1.elb.amazonaws.com
